@@ -1,13 +1,13 @@
 ---
 title: "README"
 author: "https://github.com/kmprioliPROF/"
-date: "August 14, 2018"
+date: "August 15, 2018"
 output: html_document
 ---
 
 ## Purpose
 
-This code generates vision-derived health utility index scores from the 25-item National Eye Institute Visual Function Questionnaire (NEI-VFQ-25), given a .csv file containing the raw NEI-VFQ-25 data, date of birth, and date of survey administration.
+This code generates vision-derived health utility index scores from the 25-item National Eye Institute Visual Function Questionnaire (NEI-VFQ-25), given a .csv file containing the raw NEI-VFQ-25 data, date of birth, and date of survey administration.  Output is sent to .csv.
 
 ## Setup
 
@@ -31,7 +31,7 @@ To streamline scoring, you may omit all other columns if desired.
 
 ## Running the Code
 
-Running the code is straightforward.  The libraries needed are `here` and `tidyverse`, both of which must be installed on your system to run this code.  If you don't already have these libraries, you can install them via:
+Running the code is straightforward.  The packages needed are `here` and `tidyverse`, both of which must be installed on your system to run this code.  If you don't already have these packages, you can install them via:
 
 `install.packages("here", "tidyverse")`
 
@@ -43,7 +43,7 @@ The program outputs the retained columns, recoded columns, calculated columns (i
 
 ## Disclaimer
 
-For HIPAA and human subjects protection reasons, the data provided in the example `rawVFQdata.csv` file is dummy data and does **not** represent real patient responses.
+For HIPAA and human subjects protection reasons, the data provided in the example `rawVFQdata.csv` file is dummy data and does **not** represent real subject responses.
 
 ## <a id = "refs">References</a>
 
