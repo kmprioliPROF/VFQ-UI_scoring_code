@@ -33,7 +33,7 @@ To streamline scoring, you may omit all other columns if desired.
 
 Running the code is straightforward.  The packages needed are `here` and `tidyverse`, both of which must be installed on your system to run this code.  If you don't already have these packages, you can install them via:
 
-`install.packages("here", "tidyverse")`
+`install.packages(c("here", "tidyverse"))`
 
 The code selects the nine columns of interest, assesses whether each row is scorable (i.e., whether the data is complete), retains those that are scorable, recodes the VFQ subitems, computes theta scores, and calculates utility scores.  The mechanics of recoding and the computations are derived from the Rentz et al supplement (see **[References](#refs)** below)
 
