@@ -125,4 +125,4 @@ VFQdata <- VFQdata %>%
 
 #### Writing results to .csv ----
 
-write.csv(VFQdata, here::here("VFQ-UI_scored.csv")) # Modify path here if desired
+write_csv(VFQdata, here::here("VFQ-UI_scored.csv")) # Modify path here if desired

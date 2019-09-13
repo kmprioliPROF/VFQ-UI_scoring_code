@@ -1,7 +1,7 @@
 ---
 title: "README"
 author: "https://github.com/kmprioliPROF/"
-date: "August 15, 2018"
+date: "September 13, 2019"
 output: html_document
 ---
 
@@ -31,9 +31,15 @@ To streamline scoring, you may omit all other columns if desired.
 
 ## Running the Code
 
-Running the code is straightforward.  The packages needed are `here` and `tidyverse`, both of which must be installed on your system to run this code.  If you don't already have these packages, you can install them via:
+Running the code is straightforward.  The packages needed must be installed on your system to run this code.  If you don't already have these packages, you can install them via:
 
-`install.packages(c("here", "tidyverse"))`
+`install.packages(c("here", "tidyverse", "lubridate"))`
+
+These packages are used for the following:
+
+* `here`:  for nonstatic filepaths
+* `tidyverse`:  for data import/export and wrangling
+* `lubridate`:  for date manipulation
 
 The code selects the nine columns of interest, assesses whether each row is scorable (i.e., whether the data is complete), retains those that are scorable, recodes the VFQ subitems, computes theta scores, and calculates utility scores.  The mechanics of recoding and the computations are derived from the Rentz et al supplement (see **[References](#refs)** below)
 
